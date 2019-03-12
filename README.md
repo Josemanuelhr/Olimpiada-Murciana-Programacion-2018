@@ -12,3 +12,5 @@ Given a sequence of 4 integer numbers, you have to guess the following number in
   The first number of the sequence is arbitrary. The following number will be the previous number multiplied by a constant. For example, if the first number is 4, and the constant is 3, the sequence will be: 4, 12(=4*3), 36(=12*3), 108(=36*3)... The multiplier is NOT necessarily an integer, but the result should be an integer. For example, we can have the sequence: 10000, 1000, 100, 10, 1.
   # Fibonacci.
   The first and second numbers of the sequence are arbitrary. The following number will be the sum of the two previous numbers. For exaple, if the first numbers are 5 and -1, the sequence will be: 5, -1, 4(=5+-1), 3(=-1+4), 7(=4+3)...
+  
+  # B - Rolling rope
