@@ -18,11 +18,18 @@ Given a sequence of 4 integer numbers, you have to guess the following number in
   # The output
   For each case, you have to write an integer number representing the following number in the sequence. If the sequence is not of any of the four types defined above, you have to write: 42.
   
-  # B - Rolling rope
-  A rope is wound symmetrically around a circular bar. The rope goes exactly x times around the bar, which has a circumference of 'c' centimeters and a length of 'k' centimeters.
-  The problem is to calculate the length of the rope.
+# B - Rolling rope
+A rope is wound symmetrically around a circular bar. The rope goes exactly x times around the bar, which has a circumference of 'c' centimeters and a length of 'k' centimeters.
+The problem is to calculate the length of the rope.
   # The input
   The first line of the input contains an integer, 't', indicating the number of test cases.
   For each case, the is a line with three natural numbers, separated by a space. The first one, 'c', represents the length of the circumference, 1 <= 'c' <= 100, the second number, 'k', is the length of the bar 1 <= 'k' <= 100, and the third number, 'x', indicates how many turns the rope goes around the circular bar, 1 <= 'x' <= 100.
   # The output
   For each test case, the output should consist of one line showing the length of the rope. If the result is not an integer number, you have to truncate the number.
+
+# C - More Post-its!
+In this problem, you have to help Pepito to organize his post-its. You have to order them from top to bottom. The first level should be the post-its (one or more) that don't have any post-it over them. The second levels are the post-its that only have post-its of first level above them. And so on.
+Be careful because Pepito likes to play pranks, and sometimes he puts the post-its in a way that there is no solution, in this case, you have to write "No solution".
+  # The input
+  The first line of the input contains an integer number, N, indicating the number of test cases.
+  Each test case is described in several lines. The first line contains two integers, H W, from 1 to 200, indicating the size of the wall. Then, there are H lines, each of them with W characters, representing the map of the wall. Each post-it has an assigned letter(uppercase or lowercase) or a digit(from 0 to 9). Each character indicates the post-it that is visible in that position, or it can contain a point ".", if there is no post-it. For example, we can have the following map:
