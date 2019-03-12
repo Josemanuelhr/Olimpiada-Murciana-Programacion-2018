@@ -19,3 +19,10 @@ Given a sequence of 4 integer numbers, you have to guess the following number in
   For each case, you have to write an integer number representing the following number in the sequence. If the sequence is not of any of the four types defined above, you have to write: 42.
   
   # B - Rolling rope
+  A rope is wound symmetrically around a circular bar. The rope goes exactly x times around the bar, which has a circumference of 'c' centimeters and a length of 'k' centimeters.
+  The problem is to calculate the length of the rope.
+  # The input
+  The first line of the input contains an integer, 't', indicating the number of test cases.
+  For each case, the is a line with three natural numbers, separated by a space. The first one, 'c', represents the length of the circumference, 1 <= 'c' <= 100, the second number, 'k', is the length of the bar 1 <= 'k' <= 100, and the third number, 'x', indicates how many turns the rope goes around the circular bar, 1 <= 'x' <= 100.
+  # The output
+  For each test case, the output should consist of one line showing the length of the rope. If the result is not an integer number, you have to truncate the number.
