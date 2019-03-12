@@ -1,0 +1,8 @@
+Case1
+A O
+I
+D Z
+Case2
+No solution
+Case3
+0 3 9 A S X j m n s
