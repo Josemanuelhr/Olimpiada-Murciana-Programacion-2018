@@ -57,9 +57,7 @@ Observe that the repeated part may contain part of itself. For example, if we ha
   
 # E - Plateaus at Bididibus
 Bididibus consist of blocks of uniform width and heighth. Bididibusian orography is described by a series of symbols, from left to right, indicating that the land rises one unit (represented by "/"), descends one unit (represented by "\"), or it is flat (represented by "\_").
-Example:
-//\//\_\_/_///_\\\\///\_\\\////___\\\//___\\\//\
-Your task is to count the number of plateaus in the map. A valid plateau should have: 3 or more consecutive rising units; 1 or more flat units; and 3 or more consecutive descending units. For example, in the universe represented above, there are 2 valid plateaus.
+Your task is to count the number of plateaus in the map. A valid plateau should have: 3 or more consecutive rising units; 1 or more flat units; and 3 or more consecutive descending units.
   # The input
   The first line of the input contains an integer indicating the number of test cases.
   For each test case, there is a line which can contain three possible symbols: "/", "\", "\_". There will be at most 10000 symbols in each line.
