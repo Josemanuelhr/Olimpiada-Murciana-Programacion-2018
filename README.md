@@ -54,3 +54,14 @@ Observe that the repeated part may contain part of itself. For example, if we ha
   The following N lines contains the test cases, each case in a line. This line contains an arbitrary ASCII text, between 1 and 1000 characters long.
   # The output
   For each test case, you have to output the longest sequence that is repeated in the text. If there is more than one sequence with the maximun length, you have to output the first one to appear in the text.
+  
+# E - Plateaus at Bididibus
+Bididibus consist of blocks of uniform width and heighth. Bididibusian orography is described by a series of symbols, from left to right, indicating that the land rises one unit (represented by "/"), descends one unit (represented by "\"), or it is flat (represented by "\_").
+Example:
+//\//\_\_/_///_\\\\///\_\\\////___\\\//___\\\//\
+Your task is to count the number of plateaus in the map. A valid plateau should have: 3 or more consecutive rising units; 1 or more flat units; and 3 or more consecutive descending units. For example, in the universe represented above, there are 2 valid plateaus.
+  # The input
+  The first line of the input contains an integer indicating the number of test cases.
+  For each test case, there is a line which can contain three possible symbols: "/", "\", "\_". There will be at most 10000 symbols in each line.
+  # The output
+  For each test case, the output should contain a single integer indicating the number of valid plateaus of the corresponding case.
