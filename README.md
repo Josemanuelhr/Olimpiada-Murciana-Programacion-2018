@@ -46,7 +46,7 @@ Be careful because Pepito likes to play pranks, and sometimes he puts the post-i
   # The output
   For each test case, you have to write a first line with the text "Case X", where X is the number of the current case (starting from 1). If there is no solution, the following line should say "No solution". Otherwise, you have to write aline with the characters of the post-its of the first level, in the following line the post-its of secon level, and so on. The characters have to be written in order of ASCII code and separated with a blank space.
 
-# Self-Plagiarism
+# D - Self-Plagiarism
 The goverment has hired you to write a program to detect self-plagiarism in a text. We have a text in one line. You must find the longest sequence of characters that is repeated in the same text.
 Observe that the repeated part may contain part of itself. For example, if we have the sequence: "blah, blah, blah", the longest repetition is the fragment "blah, blah".
   # The input
