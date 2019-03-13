@@ -255,7 +255,7 @@ int main() {
 
 		} while (!(fin) && !(sin_solucion));
 
-		cout << "Case" << k+1 << endl;
+		cout << "Case " << k+1 << endl;
 		if (sin_solucion)
 			cout << "No solution" << endl;
 		else
