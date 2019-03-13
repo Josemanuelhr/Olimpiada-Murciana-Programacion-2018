@@ -63,3 +63,11 @@ Your task is to count the number of plateaus in the map. A valid plateau should 
   For each test case, there is a line which can contain three possible symbols: "/", "\", "\_". There will be at most 10000 symbols in each line.
   # The output
   For each test case, the output should contain a single integer indicating the number of valid plateaus of the corresponding case.
+
+# F - Go for a Different Road!
+We have a two-dimensional square grid of infinite size. There is a departure cell and an arrival cell, located in the same column, at a distance 'd', 1 <= d <= 40. Valid movements are from one cell to another contiguous cell. You have to calculate the number of different minimun paths (that is, those that need the minimum number of steps) to go from the initial cell to the final cell.
+  # The input
+  The first line of the input contains an integer indicating the number of cases.
+  For each test case, there is a line with one number indicating the distance 'd' between the initial cell and the final cell.
+  # The output
+  For each test case, the output should consist of one line showing the number of different minimum paths between the initial and the final cell.
